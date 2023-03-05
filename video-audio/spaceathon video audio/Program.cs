@@ -10,9 +10,9 @@ namespace spaceathon_video_audio
         [STAThread]
         static void Main(string[] args)
         {
-            string _audioFile = @"C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\space drive.mp3";
-            string _videoFile = @"C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\serenity.mp4";
-            string _targetFile = @"C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\target.mp4";
+            string _audioFile = @"D:\Documents\Projects\Hackathon\Space\video-audio\Example\audio.mpg";
+            string _videoFile = @"D:\Documents\Projects\Hackathon\Space\video-audio\Example\video.mp4";
+            string _targetFile = @"D:\Documents\Projects\Hackathon\Space\video-audio\Example\test-case.mp4";
 
             SetLicense();
             CombineAudioandVideo(_videoFile, _audioFile, _targetFile);
