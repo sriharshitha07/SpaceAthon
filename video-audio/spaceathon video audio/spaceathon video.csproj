@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <TargetFramework>net6.0-windows</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>spaceathon_video_audio</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Leadtools.Formats.Raster.Common" Version="22.0.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Leadtools.Multimedia">
+      <HintPath>..\..\..\..\..\..\..\LEADTOOLS22\Bin\DotNet4\x64\Leadtools.Multimedia.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

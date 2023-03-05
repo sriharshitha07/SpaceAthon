@@ -1,0 +1,5 @@
+C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\spaceathon video audio\obj\Debug\net6.0\spaceathon video.csproj.AssemblyReference.cache
+C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\spaceathon video audio\obj\Debug\net6.0\spaceathon video.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\spaceathon video audio\obj\Debug\net6.0\spaceathon video.AssemblyInfoInputs.cache
+C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\spaceathon video audio\obj\Debug\net6.0\spaceathon video.AssemblyInfo.cs
+C:\Users\Jacky Wang\Documents\GitHub\SpaceAthon\video-audio\spaceathon video audio\obj\Debug\net6.0\spaceathon video.csproj.CoreCompileInputs.cache

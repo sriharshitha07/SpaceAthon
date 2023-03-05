@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)leadtools.kernel\22.0.0.6\build\net6.0\Leadtools.Kernel.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.kernel\22.0.0.6\build\net6.0\Leadtools.Kernel.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.formats.raster.common\22.0.0.6\build\net6.0\Leadtools.Formats.Raster.Common.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.formats.raster.common\22.0.0.6\build\net6.0\Leadtools.Formats.Raster.Common.targets')" />
+  </ImportGroup>
+</Project>

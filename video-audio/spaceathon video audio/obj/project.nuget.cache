@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "FCnmCf8u3jAeZPc9rkgJ6v+YDNA93eqb4RHSt1a1JMOwL1JKUJEhzWqStIiqlYVk/UUd98UuSYq2Y8dtUW1pBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacky Wang\\Documents\\GitHub\\SpaceAthon\\video-audio\\spaceathon video audio\\spaceathon video.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\leadtools.formats.raster.common\\22.0.0.6\\leadtools.formats.raster.common.22.0.0.6.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\leadtools.kernel\\22.0.0.6\\leadtools.kernel.22.0.0.6.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\leadtools.kernel.netstandard\\22.0.0.6\\leadtools.kernel.netstandard.22.0.0.6.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

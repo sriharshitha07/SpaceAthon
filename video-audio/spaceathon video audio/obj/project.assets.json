@@ -1,0 +1,2647 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Leadtools.Formats.Raster.Common/22.0.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Leadtools.Kernel": "[22.0.0.6, 23.0.0.1)"
+        },
+        "compile": {
+          "lib/net6.0/Leadtools.ColorConversion.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Leadtools.ColorConversion.dll": {}
+        },
+        "build": {
+          "build/net6.0/Leadtools.Formats.Raster.Common.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfbmp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfcmp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfcmw.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblffax.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfgif.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfj2k.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfjb2.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfjbg.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfpng.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblfraw.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/liblftif.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltclr.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Bmp.framework/Leadtools.Codecs.Bmp": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Bmp.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmp.framework/Leadtools.Codecs.Cmp": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmp.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmw.framework/Leadtools.Codecs.Cmw": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmw.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Fax.framework/Leadtools.Codecs.Fax": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Fax.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Gif.framework/Leadtools.Codecs.Gif": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Gif.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.J2k.framework/Leadtools.Codecs.J2k": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.J2k.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jb2.framework/Leadtools.Codecs.Jb2": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jb2.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jbg.framework/Leadtools.Codecs.Jbg": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jbg.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Png.framework/Leadtools.Codecs.Png": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Png.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Raw.framework/Leadtools.Codecs.Raw": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Raw.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Tif.framework/Leadtools.Codecs.Tif": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Tif.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.ColorConversion.framework/Leadtools.ColorConversion": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.ColorConversion.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfBmpx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfCmpx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfCmwx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfFaxx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfGifx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfJ2kx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfJb2x.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfJbgx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfPngx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfRawx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LfTifx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtClrx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfBmpu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfCmpu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfCmwu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfFaxu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfGifu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfJ2ku.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfJb2u.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfJbgu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfPngu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfRawu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LfTifu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtClru.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Leadtools.Kernel/22.0.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Leadtools.Kernel.NETStandard": "[22.0.0.6, 23.0.0.1)"
+        },
+        "compile": {
+          "lib/net6.0/Leadtools.Codecs.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Drawing.Windows.dll": {},
+          "lib/net6.0/Leadtools.Drawing.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Logging.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Svg.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.dll": {
+            "related": ".Codecs.xml;.Drawing.xml;.Logging.xml;.Svg.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Leadtools.Codecs.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Drawing.Windows.dll": {},
+          "lib/net6.0/Leadtools.Drawing.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Logging.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.Svg.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/Leadtools.dll": {
+            "related": ".Codecs.xml;.Drawing.xml;.Logging.xml;.Svg.xml;.xml"
+          }
+        },
+        "build": {
+          "build/net6.0/Leadtools.Kernel.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltdoccore.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltdrw.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltfil.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltkrn.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/nativeassets/netcoreapp/libltsvg.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsAbcOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsAnzOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDefines.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDocOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDocumentImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEnumGeoKeysEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEnumTagsEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEpsOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsExcelOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsExtension.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsFaxImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsFpxOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsGifImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsGifOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsHeicImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsHeicOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJbig2Options.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJbigOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpeg2000Options.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpegImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpegOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadImageEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadInformationEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadSvgOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOptimizedLoadData.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOverlayData.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPageEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPdfOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPngOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPowerPointOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdChannelInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdLayerInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPstImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPtokaOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRasterPdfInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRasterizeDocumentOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRawOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRtfOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsSaveImageEventArgs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsStartDecompressOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsThumbnailOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTiffImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTiffOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTransformMarkerCallback.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTxtOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVectorImageInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVectorOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVffOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCompressDataCallback.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTRasterCodecs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/Leadtools.Codecs.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Leadtools.Codecs": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Headers/Leadtools.Document.Core.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Leadtools.Document.Core": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Drawing.framework/Leadtools.Drawing": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Drawing.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTEnums.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgBounds.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgDataUri.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgDocument.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgElementInfo.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgNodeHandle.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgOptions.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgTextData.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/Leadtools.Svg.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Leadtools.Svg": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/l_bitmap.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltann.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltbar.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltclr.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltcrt.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdic.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdicerrors.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdictags.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdicuid.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdis.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdocwrt.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/lterr.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltfil.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimg.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgclr.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgcor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgefx.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltjp2.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltkrn.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltlck.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltocr.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltocrEnums.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltpck.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltplatforms.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltprimitives.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltspellcheck.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltsvg.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltsys.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/lttyp.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltver.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltvkrn.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTChangeViewPerspectiveCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTClearCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTClearNegativePixelsCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCloneCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTColorResolutionCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCombineFastCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCombineWarpCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCopyDataCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCopyRectangleCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCreateGrayScaleImageCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCropCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTDetectAlphaCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTErrorCode.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTFillCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTFlipCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTGrayscaleCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTHandle.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadDataStream.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadFileStream.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadStream.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadtools.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadtoolsDefines.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTMTLDataCallbacks.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTPremultiplyAlphaValuesCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTPrimitives.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterBufferConverter.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterBufferResize.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColor16.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColorSpace.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommandProcessor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommentMetadata.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterDefaults.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterHsvColor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImage.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageAnimator.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageDataCallbacks.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageFormat.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageMemoryInformation.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageResize.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterKnownColor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterMarkerMetadata.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterMetadata.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterOverlayAttributes.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterPalette.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRegion.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRegionXForm.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRleCompressor.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterSupport.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterTagMetadata.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterUserMatchTable.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTResizeCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRotateCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTScrambleCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSetAlphaValuesCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTShearCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSizeCommand.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSvgDocument.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Leadtools.Kernel.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Leadtools.h": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Leadtools": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Resources/Info.plist": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtDisx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtDrwD2Dx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtDrwx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtFilx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtKrnx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/LtSvgx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/Ltdoccorex.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/nativeassets/netcoreapp/Ltdrwmpx.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtDisu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtDocCoreu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtDrwD2Du.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtDrwu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtFilu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtKrnu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/LtSvgu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp/Ltdrwmpu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Leadtools.Kernel.NETStandard/22.0.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/net6.0/Leadtools.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Leadtools.Core.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Leadtools.Formats.Raster.Common/22.0.0.6": {
+      "sha512": "eV5mZkrQGlN7XMqxx3ofnKpZfsPvTdpAlTdX8gZA7uOJvGZSAiuW3oVD20OLrw+WH/63mQ1zYxNhvI4Zms4eUw==",
+      "type": "package",
+      "path": "leadtools.formats.raster.common/22.0.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid/Leadtools.Formats.Raster.Common.targets",
+        "build/net40/Leadtools.Formats.Raster.Common.targets",
+        "build/net40/x64/Leadtools.Codecs.Bmp.dll",
+        "build/net40/x64/Leadtools.Codecs.Cmp.dll",
+        "build/net40/x64/Leadtools.Codecs.Cmw.dll",
+        "build/net40/x64/Leadtools.Codecs.Fax.dll",
+        "build/net40/x64/Leadtools.Codecs.Gif.dll",
+        "build/net40/x64/Leadtools.Codecs.J2k.dll",
+        "build/net40/x64/Leadtools.Codecs.Jb2.dll",
+        "build/net40/x64/Leadtools.Codecs.Jbg.dll",
+        "build/net40/x64/Leadtools.Codecs.Png.dll",
+        "build/net40/x64/Leadtools.Codecs.Raw.dll",
+        "build/net40/x64/Leadtools.Codecs.Tif.dll",
+        "build/net40/x64/Leadtools.ColorConversion.dll",
+        "build/net40/x86/Leadtools.Codecs.Bmp.dll",
+        "build/net40/x86/Leadtools.Codecs.Cmp.dll",
+        "build/net40/x86/Leadtools.Codecs.Cmw.dll",
+        "build/net40/x86/Leadtools.Codecs.Fax.dll",
+        "build/net40/x86/Leadtools.Codecs.Gif.dll",
+        "build/net40/x86/Leadtools.Codecs.J2k.dll",
+        "build/net40/x86/Leadtools.Codecs.Jb2.dll",
+        "build/net40/x86/Leadtools.Codecs.Jbg.dll",
+        "build/net40/x86/Leadtools.Codecs.Png.dll",
+        "build/net40/x86/Leadtools.Codecs.Raw.dll",
+        "build/net40/x86/Leadtools.Codecs.Tif.dll",
+        "build/net40/x86/Leadtools.ColorConversion.dll",
+        "build/net6.0/Leadtools.Formats.Raster.Common.targets",
+        "build/netstandard2.0/Leadtools.Formats.Raster.Common.targets",
+        "build/xamarinios/Leadtools.Codecs.Bmp.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Bmp.framework/Leadtools.Codecs.Bmp",
+        "build/xamarinios/Leadtools.Codecs.Cmp.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Cmp.framework/Leadtools.Codecs.Cmp",
+        "build/xamarinios/Leadtools.Codecs.Cmw.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Cmw.framework/Leadtools.Codecs.Cmw",
+        "build/xamarinios/Leadtools.Codecs.Fax.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Fax.framework/Leadtools.Codecs.Fax",
+        "build/xamarinios/Leadtools.Codecs.Gif.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Gif.framework/Leadtools.Codecs.Gif",
+        "build/xamarinios/Leadtools.Codecs.J2k.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.J2k.framework/Leadtools.Codecs.J2k",
+        "build/xamarinios/Leadtools.Codecs.Jb2.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Jb2.framework/Leadtools.Codecs.Jb2",
+        "build/xamarinios/Leadtools.Codecs.Jbg.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Jbg.framework/Leadtools.Codecs.Jbg",
+        "build/xamarinios/Leadtools.Codecs.Png.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Png.framework/Leadtools.Codecs.Png",
+        "build/xamarinios/Leadtools.Codecs.Raw.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Raw.framework/Leadtools.Codecs.Raw",
+        "build/xamarinios/Leadtools.Codecs.Tif.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.Tif.framework/Leadtools.Codecs.Tif",
+        "build/xamarinios/Leadtools.ColorConversion.framework/Info.plist",
+        "build/xamarinios/Leadtools.ColorConversion.framework/Leadtools.ColorConversion",
+        "build/xamarinios/Leadtools.Formats.Raster.Common.targets",
+        "leadtools.formats.raster.common.22.0.0.6.nupkg.sha512",
+        "leadtools.formats.raster.common.nuspec",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.bmp.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.cmp.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.cmw.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.fax.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.gif.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.j2k.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.jb2.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.jbg.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.png.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.raw.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.tif.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.colorconversion.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.bmp.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.cmp.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.cmw.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.fax.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.gif.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.j2k.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.jb2.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.jbg.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.png.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.raw.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.tif.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.colorconversion.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.bmp.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.cmp.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.cmw.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.fax.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.gif.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.j2k.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.jb2.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.jbg.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.png.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.raw.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.tif.so",
+        "lib/MonoAndroid/x86/libleadtools.colorconversion.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.bmp.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.cmp.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.cmw.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.fax.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.gif.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.j2k.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.jb2.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.jbg.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.png.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.raw.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.tif.so",
+        "lib/MonoAndroid/x86_64/libleadtools.colorconversion.so",
+        "lib/net40/dummy.txt",
+        "lib/net6.0/Leadtools.ColorConversion.dll",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfbmp.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfcmp.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfcmw.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblffax.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfgif.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfj2k.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfjb2.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfjbg.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfpng.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblfraw.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/liblftif.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltclr.so",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Bmp.framework/Leadtools.Codecs.Bmp",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Bmp.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmp.framework/Leadtools.Codecs.Cmp",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmp.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmw.framework/Leadtools.Codecs.Cmw",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Cmw.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Fax.framework/Leadtools.Codecs.Fax",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Fax.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Gif.framework/Leadtools.Codecs.Gif",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Gif.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.J2k.framework/Leadtools.Codecs.J2k",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.J2k.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jb2.framework/Leadtools.Codecs.Jb2",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jb2.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jbg.framework/Leadtools.Codecs.Jbg",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Jbg.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Png.framework/Leadtools.Codecs.Png",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Png.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Raw.framework/Leadtools.Codecs.Raw",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Raw.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Tif.framework/Leadtools.Codecs.Tif",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.Tif.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.ColorConversion.framework/Leadtools.ColorConversion",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.ColorConversion.framework/Resources/Info.plist",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfBmpx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfCmpx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfCmwx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfFaxx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfGifx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfJ2kx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfJb2x.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfJbgx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfPngx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfRawx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LfTifx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtClrx.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfBmpu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfCmpu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfCmwu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfFaxu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfGifu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfJ2ku.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfJb2u.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfJbgu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfPngu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfRawu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LfTifu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtClru.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Bmp.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Cmp.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Cmw.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Fax.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Gif.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.J2k.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Jb2.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Jbg.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Png.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Raw.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.Codecs.Tif.dll",
+        "runtimes/win10-arm/nativeassets/uap/Leadtools.ColorConversion.Native.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Bmp.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Cmp.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Cmw.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Fax.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Gif.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.J2k.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Jb2.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Jbg.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Png.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Raw.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.Codecs.Tif.dll",
+        "runtimes/win10-x64/nativeassets/uap/Leadtools.ColorConversion.Native.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Bmp.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Cmp.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Cmw.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Fax.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Gif.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.J2k.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Jb2.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Jbg.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Png.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Raw.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.Codecs.Tif.dll",
+        "runtimes/win10-x86/nativeassets/uap/Leadtools.ColorConversion.Native.dll"
+      ]
+    },
+    "Leadtools.Kernel/22.0.0.6": {
+      "sha512": "yZ8yPE28sEmMV8OU/YluyAqGnGDN1lRiHyd4RAu6DJLD2XfT8usRCeqMfdTu8keqifhriL43vRhWzkMXp3oRzg==",
+      "type": "package",
+      "path": "leadtools.kernel/22.0.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid/Leadtools.Kernel.targets",
+        "build/net40/Leadtools.Kernel.targets",
+        "build/net40/x64/Leadtools.Async.dll",
+        "build/net40/x64/Leadtools.Codecs.dll",
+        "build/net40/x64/Leadtools.Codecs.xml",
+        "build/net40/x64/Leadtools.Document.Core.dll",
+        "build/net40/x64/Leadtools.Document.Core.xml",
+        "build/net40/x64/Leadtools.Drawing.MP.dll",
+        "build/net40/x64/Leadtools.Drawing.dll",
+        "build/net40/x64/Leadtools.Drawing.xml",
+        "build/net40/x64/Leadtools.Logging.dll",
+        "build/net40/x64/Leadtools.Logging.xml",
+        "build/net40/x64/Leadtools.Svg.dll",
+        "build/net40/x64/Leadtools.Svg.xml",
+        "build/net40/x64/Leadtools.dll",
+        "build/net40/x64/Leadtools.xml",
+        "build/net40/x86/Leadtools.Async.dll",
+        "build/net40/x86/Leadtools.Codecs.dll",
+        "build/net40/x86/Leadtools.Codecs.xml",
+        "build/net40/x86/Leadtools.Document.Core.dll",
+        "build/net40/x86/Leadtools.Document.Core.xml",
+        "build/net40/x86/Leadtools.Drawing.MP.dll",
+        "build/net40/x86/Leadtools.Drawing.dll",
+        "build/net40/x86/Leadtools.Drawing.xml",
+        "build/net40/x86/Leadtools.Logging.dll",
+        "build/net40/x86/Leadtools.Logging.xml",
+        "build/net40/x86/Leadtools.Svg.dll",
+        "build/net40/x86/Leadtools.Svg.xml",
+        "build/net40/x86/Leadtools.dll",
+        "build/net40/x86/Leadtools.xml",
+        "build/net6.0/Leadtools.Kernel.targets",
+        "build/netstandard2.0/Leadtools.Kernel.targets",
+        "build/uap/Leadtools.Kernel.targets",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsAbcOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsAnzOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsDefines.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsDocOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsDocumentImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsEnumGeoKeysEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsEnumTagsEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsEpsOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsExcelOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsExtension.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsFaxImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsFpxOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsGifImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsGifOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsHeicImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsHeicOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsJbig2Options.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsJbigOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsJpeg2000Options.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsJpegImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsJpegOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsLoadImageEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsLoadInformationEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsLoadSvgOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsOptimizedLoadData.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsOverlayData.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPageEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPdfOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPngOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPowerPointOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPsdChannelInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPsdImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPsdLayerInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPstImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsPtokaOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsRasterPdfInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsRasterizeDocumentOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsRawOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsRtfOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsSaveImageEventArgs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsStartDecompressOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsThumbnailOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsTiffImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsTiffOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsTransformMarkerCallback.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsTxtOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsVectorImageInfo.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsVectorOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCodecsVffOptions.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTCompressDataCallback.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/LTRasterCodecs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Headers/Leadtools.Codecs.h",
+        "build/xamarinios/Leadtools.Codecs.framework/Info.plist",
+        "build/xamarinios/Leadtools.Codecs.framework/Leadtools.Codecs",
+        "build/xamarinios/Leadtools.Document.Core.framework/Headers/Leadtools.Document.Core.h",
+        "build/xamarinios/Leadtools.Document.Core.framework/Info.plist",
+        "build/xamarinios/Leadtools.Document.Core.framework/Leadtools.Document.Core",
+        "build/xamarinios/Leadtools.Drawing.framework/Info.plist",
+        "build/xamarinios/Leadtools.Drawing.framework/Leadtools.Drawing",
+        "build/xamarinios/Leadtools.Kernel.targets",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTEnums.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgBounds.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgDataUri.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgDocument.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgElementInfo.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgNodeHandle.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgOptions.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/LTSvgTextData.h",
+        "build/xamarinios/Leadtools.Svg.framework/Headers/Leadtools.Svg.h",
+        "build/xamarinios/Leadtools.Svg.framework/Info.plist",
+        "build/xamarinios/Leadtools.Svg.framework/Leadtools.Svg",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/l_bitmap.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltann.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltbar.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltclr.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltcrt.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdic.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdicerrors.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdictags.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdicuid.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdis.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltdocwrt.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/lterr.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltfil.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltimg.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltimgclr.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltimgcor.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltimgefx.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltjp2.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltkrn.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltlck.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltocr.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltocrEnums.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltpck.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltplatforms.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltprimitives.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltspellcheck.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltsvg.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltsys.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/lttyp.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltver.h",
+        "build/xamarinios/Leadtools.framework/Headers/Kernel/ltvkrn.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTChangeViewPerspectiveCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTClearCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTClearNegativePixelsCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCloneCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTColorResolutionCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCombineFastCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCombineWarpCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCopyDataCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCopyRectangleCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCreateGrayScaleImageCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTCropCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTDetectAlphaCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTErrorCode.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTFillCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTFlipCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTGrayscaleCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTHandle.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTLeadDataStream.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTLeadFileStream.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTLeadStream.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTLeadtools.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTLeadtoolsDefines.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTMTLDataCallbacks.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTPremultiplyAlphaValuesCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTPrimitives.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterBufferConverter.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterBufferResize.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterColor.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterColor16.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterColorSpace.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterCommandProcessor.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterCommentMetadata.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterDefaults.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterHsvColor.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImage.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImageAnimator.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImageDataCallbacks.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImageFormat.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImageMemoryInformation.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterImageResize.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterKnownColor.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterMarkerMetadata.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterMetadata.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterOverlayAttributes.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterPalette.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterRegion.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterRegionXForm.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterRleCompressor.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterSupport.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterTagMetadata.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRasterUserMatchTable.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTResizeCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTRotateCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTScrambleCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTSetAlphaValuesCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTShearCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTSizeCommand.h",
+        "build/xamarinios/Leadtools.framework/Headers/LTSvgDocument.h",
+        "build/xamarinios/Leadtools.framework/Headers/Leadtools.Kernel.h",
+        "build/xamarinios/Leadtools.framework/Headers/Leadtools.h",
+        "build/xamarinios/Leadtools.framework/Info.plist",
+        "build/xamarinios/Leadtools.framework/Leadtools",
+        "leadtools.kernel.22.0.0.6.nupkg.sha512",
+        "leadtools.kernel.nuspec",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.codecs.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.document.core.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.drawing.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.so",
+        "lib/MonoAndroid/arm64-v8a/libleadtools.svg.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.codecs.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.document.core.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.drawing.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.so",
+        "lib/MonoAndroid/armeabi-v7a/libleadtools.svg.so",
+        "lib/MonoAndroid/x86/libleadtools.codecs.so",
+        "lib/MonoAndroid/x86/libleadtools.document.core.so",
+        "lib/MonoAndroid/x86/libleadtools.drawing.so",
+        "lib/MonoAndroid/x86/libleadtools.so",
+        "lib/MonoAndroid/x86/libleadtools.svg.so",
+        "lib/MonoAndroid/x86_64/libleadtools.codecs.so",
+        "lib/MonoAndroid/x86_64/libleadtools.document.core.so",
+        "lib/MonoAndroid/x86_64/libleadtools.drawing.so",
+        "lib/MonoAndroid/x86_64/libleadtools.so",
+        "lib/MonoAndroid/x86_64/libleadtools.svg.so",
+        "lib/net40/dummy.txt",
+        "lib/net6.0/Leadtools.Codecs.dll",
+        "lib/net6.0/Leadtools.Codecs.xml",
+        "lib/net6.0/Leadtools.Drawing.Windows.dll",
+        "lib/net6.0/Leadtools.Drawing.dll",
+        "lib/net6.0/Leadtools.Drawing.xml",
+        "lib/net6.0/Leadtools.Logging.dll",
+        "lib/net6.0/Leadtools.Logging.xml",
+        "lib/net6.0/Leadtools.Svg.dll",
+        "lib/net6.0/Leadtools.Svg.xml",
+        "lib/net6.0/Leadtools.dll",
+        "lib/net6.0/Leadtools.xml",
+        "lib/netstandard2.0/Leadtools.Codecs.dll",
+        "lib/netstandard2.0/Leadtools.Codecs.xml",
+        "lib/netstandard2.0/Leadtools.Drawing.dll",
+        "lib/netstandard2.0/Leadtools.Drawing.xml",
+        "lib/netstandard2.0/Leadtools.Svg.dll",
+        "lib/netstandard2.0/Leadtools.Svg.xml",
+        "lib/netstandard2.0/Leadtools.dll",
+        "lib/netstandard2.0/Leadtools.xml",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltdoccore.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltdrw.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltfil.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltkrn.so",
+        "runtimes/linux-x64/nativeassets/netcoreapp/libltsvg.so",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsAbcOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsAnzOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDefines.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDocOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsDocumentImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEnumGeoKeysEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEnumTagsEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsEpsOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsExcelOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsExtension.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsFaxImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsFpxOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsGifImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsGifOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsHeicImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsHeicOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJbig2Options.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJbigOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpeg2000Options.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpegImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsJpegOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadImageEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadInformationEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsLoadSvgOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOptimizedLoadData.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsOverlayData.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPageEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPdfOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPngOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPowerPointOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdChannelInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPsdLayerInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPstImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsPtokaOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRasterPdfInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRasterizeDocumentOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRawOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsRtfOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsSaveImageEventArgs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsStartDecompressOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsThumbnailOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTiffImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTiffOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTransformMarkerCallback.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsTxtOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVectorImageInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVectorOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCodecsVffOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTCompressDataCallback.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/LTRasterCodecs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Headers/Leadtools.Codecs.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Leadtools.Codecs",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Codecs.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Headers/Leadtools.Document.Core.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Leadtools.Document.Core",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Document.Core.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Drawing.framework/Leadtools.Drawing",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Drawing.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTEnums.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgBounds.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgDataUri.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgDocument.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgElementInfo.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgNodeHandle.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgOptions.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/LTSvgTextData.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Headers/Leadtools.Svg.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Leadtools.Svg",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.Svg.framework/Resources/Info.plist",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/l_bitmap.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltann.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltbar.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltclr.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltcrt.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdic.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdicerrors.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdictags.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdicuid.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdis.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltdocwrt.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/lterr.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltfil.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimg.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgclr.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgcor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltimgefx.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltjp2.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltkrn.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltlck.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltocr.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltocrEnums.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltpck.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltplatforms.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltprimitives.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltspellcheck.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltsvg.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltsys.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/lttyp.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltver.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Kernel/ltvkrn.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTChangeViewPerspectiveCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTClearCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTClearNegativePixelsCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCloneCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTColorResolutionCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCombineFastCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCombineWarpCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCopyDataCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCopyRectangleCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCreateGrayScaleImageCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTCropCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTDetectAlphaCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTErrorCode.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTFillCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTFlipCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTGrayscaleCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTHandle.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadDataStream.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadFileStream.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadStream.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadtools.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTLeadtoolsDefines.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTMTLDataCallbacks.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTPremultiplyAlphaValuesCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTPrimitives.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterBufferConverter.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterBufferResize.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColor16.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterColorSpace.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommandProcessor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterCommentMetadata.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterDefaults.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterHsvColor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImage.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageAnimator.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageDataCallbacks.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageFormat.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageMemoryInformation.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterImageResize.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterKnownColor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterMarkerMetadata.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterMetadata.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterOverlayAttributes.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterPalette.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRegion.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRegionXForm.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterRleCompressor.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterSupport.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterTagMetadata.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRasterUserMatchTable.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTResizeCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTRotateCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTScrambleCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSetAlphaValuesCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTShearCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSizeCommand.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/LTSvgDocument.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Leadtools.Kernel.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Headers/Leadtools.h",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Leadtools",
+        "runtimes/osx-x64/nativeassets/netcoreapp/Leadtools.framework/Resources/Info.plist",
+        "runtimes/win-arm/nativeassets/uap/Leadtools.Codecs.Native.dll",
+        "runtimes/win-arm/nativeassets/uap/Leadtools.Document.Core.Native.dll",
+        "runtimes/win-arm/nativeassets/uap/Leadtools.Drawing.Native.dll",
+        "runtimes/win-arm/nativeassets/uap/Leadtools.Native.dll",
+        "runtimes/win-arm/nativeassets/uap/Leadtools.Svg.Native.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtDisx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtDrwD2Dx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtDrwx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtFilx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtKrnx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/LtSvgx.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/Ltdoccorex.dll",
+        "runtimes/win-x64/nativeassets/netcoreapp/Ltdrwmpx.dll",
+        "runtimes/win-x64/nativeassets/uap/Leadtools.Codecs.Native.dll",
+        "runtimes/win-x64/nativeassets/uap/Leadtools.Document.Core.Native.dll",
+        "runtimes/win-x64/nativeassets/uap/Leadtools.Drawing.Native.dll",
+        "runtimes/win-x64/nativeassets/uap/Leadtools.Native.dll",
+        "runtimes/win-x64/nativeassets/uap/Leadtools.Svg.Native.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtDisu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtDocCoreu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtDrwD2Du.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtDrwu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtFilu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtKrnu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/LtSvgu.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp/Ltdrwmpu.dll",
+        "runtimes/win-x86/nativeassets/uap/Leadtools.Codecs.Native.dll",
+        "runtimes/win-x86/nativeassets/uap/Leadtools.Document.Core.Native.dll",
+        "runtimes/win-x86/nativeassets/uap/Leadtools.Drawing.Native.dll",
+        "runtimes/win-x86/nativeassets/uap/Leadtools.Native.dll",
+        "runtimes/win-x86/nativeassets/uap/Leadtools.Svg.Native.dll"
+      ]
+    },
+    "Leadtools.Kernel.NETStandard/22.0.0.6": {
+      "sha512": "enBCBm9fqfaqQjZEIPsL1mu2QhknK8kIU1zUfFxZyKzegHrTvuvf/9ru56fG3psGoC/VBn55r7uwGDj5gioS8w==",
+      "type": "package",
+      "path": "leadtools.kernel.netstandard/22.0.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid/Leadtools.Kernel.NETStandard.targets",
+        "build/uap/Leadtools.Kernel.NETStandard.targets",
+        "leadtools.kernel.netstandard.22.0.0.6.nupkg.sha512",
+        "leadtools.kernel.netstandard.nuspec",
+        "lib/net6.0/Leadtools.Core.dll",
+        "lib/netstandard2.0/Leadtools.Core.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
+        "runtime.json"
+      ]
+    },
+    "System.Globalization/4.3.0": {
+      "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "type": "package",
+      "path": "system.globalization/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Globalization.dll",
+        "ref/netcore50/System.Globalization.xml",
+        "ref/netcore50/de/System.Globalization.xml",
+        "ref/netcore50/es/System.Globalization.xml",
+        "ref/netcore50/fr/System.Globalization.xml",
+        "ref/netcore50/it/System.Globalization.xml",
+        "ref/netcore50/ja/System.Globalization.xml",
+        "ref/netcore50/ko/System.Globalization.xml",
+        "ref/netcore50/ru/System.Globalization.xml",
+        "ref/netcore50/zh-hans/System.Globalization.xml",
+        "ref/netcore50/zh-hant/System.Globalization.xml",
+        "ref/netstandard1.0/System.Globalization.dll",
+        "ref/netstandard1.0/System.Globalization.xml",
+        "ref/netstandard1.0/de/System.Globalization.xml",
+        "ref/netstandard1.0/es/System.Globalization.xml",
+        "ref/netstandard1.0/fr/System.Globalization.xml",
+        "ref/netstandard1.0/it/System.Globalization.xml",
+        "ref/netstandard1.0/ja/System.Globalization.xml",
+        "ref/netstandard1.0/ko/System.Globalization.xml",
+        "ref/netstandard1.0/ru/System.Globalization.xml",
+        "ref/netstandard1.0/zh-hans/System.Globalization.xml",
+        "ref/netstandard1.0/zh-hant/System.Globalization.xml",
+        "ref/netstandard1.3/System.Globalization.dll",
+        "ref/netstandard1.3/System.Globalization.xml",
+        "ref/netstandard1.3/de/System.Globalization.xml",
+        "ref/netstandard1.3/es/System.Globalization.xml",
+        "ref/netstandard1.3/fr/System.Globalization.xml",
+        "ref/netstandard1.3/it/System.Globalization.xml",
+        "ref/netstandard1.3/ja/System.Globalization.xml",
+        "ref/netstandard1.3/ko/System.Globalization.xml",
+        "ref/netstandard1.3/ru/System.Globalization.xml",
+        "ref/netstandard1.3/zh-hans/System.Globalization.xml",
+        "ref/netstandard1.3/zh-hant/System.Globalization.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.globalization.4.3.0.nupkg.sha512",
+        "system.globalization.nuspec"
+      ]
+    },
+    "System.IO/4.3.0": {
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "type": "package",
+      "path": "system.io/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.IO.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.IO.dll",
+        "ref/netcore50/System.IO.dll",
+        "ref/netcore50/System.IO.xml",
+        "ref/netcore50/de/System.IO.xml",
+        "ref/netcore50/es/System.IO.xml",
+        "ref/netcore50/fr/System.IO.xml",
+        "ref/netcore50/it/System.IO.xml",
+        "ref/netcore50/ja/System.IO.xml",
+        "ref/netcore50/ko/System.IO.xml",
+        "ref/netcore50/ru/System.IO.xml",
+        "ref/netcore50/zh-hans/System.IO.xml",
+        "ref/netcore50/zh-hant/System.IO.xml",
+        "ref/netstandard1.0/System.IO.dll",
+        "ref/netstandard1.0/System.IO.xml",
+        "ref/netstandard1.0/de/System.IO.xml",
+        "ref/netstandard1.0/es/System.IO.xml",
+        "ref/netstandard1.0/fr/System.IO.xml",
+        "ref/netstandard1.0/it/System.IO.xml",
+        "ref/netstandard1.0/ja/System.IO.xml",
+        "ref/netstandard1.0/ko/System.IO.xml",
+        "ref/netstandard1.0/ru/System.IO.xml",
+        "ref/netstandard1.0/zh-hans/System.IO.xml",
+        "ref/netstandard1.0/zh-hant/System.IO.xml",
+        "ref/netstandard1.3/System.IO.dll",
+        "ref/netstandard1.3/System.IO.xml",
+        "ref/netstandard1.3/de/System.IO.xml",
+        "ref/netstandard1.3/es/System.IO.xml",
+        "ref/netstandard1.3/fr/System.IO.xml",
+        "ref/netstandard1.3/it/System.IO.xml",
+        "ref/netstandard1.3/ja/System.IO.xml",
+        "ref/netstandard1.3/ko/System.IO.xml",
+        "ref/netstandard1.3/ru/System.IO.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.xml",
+        "ref/netstandard1.5/System.IO.dll",
+        "ref/netstandard1.5/System.IO.xml",
+        "ref/netstandard1.5/de/System.IO.xml",
+        "ref/netstandard1.5/es/System.IO.xml",
+        "ref/netstandard1.5/fr/System.IO.xml",
+        "ref/netstandard1.5/it/System.IO.xml",
+        "ref/netstandard1.5/ja/System.IO.xml",
+        "ref/netstandard1.5/ko/System.IO.xml",
+        "ref/netstandard1.5/ru/System.IO.xml",
+        "ref/netstandard1.5/zh-hans/System.IO.xml",
+        "ref/netstandard1.5/zh-hant/System.IO.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.io.4.3.0.nupkg.sha512",
+        "system.io.nuspec"
+      ]
+    },
+    "System.Reflection/4.3.0": {
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "type": "package",
+      "path": "system.reflection/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Reflection.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.xml",
+        "ref/netcore50/de/System.Reflection.xml",
+        "ref/netcore50/es/System.Reflection.xml",
+        "ref/netcore50/fr/System.Reflection.xml",
+        "ref/netcore50/it/System.Reflection.xml",
+        "ref/netcore50/ja/System.Reflection.xml",
+        "ref/netcore50/ko/System.Reflection.xml",
+        "ref/netcore50/ru/System.Reflection.xml",
+        "ref/netcore50/zh-hans/System.Reflection.xml",
+        "ref/netcore50/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.0/System.Reflection.dll",
+        "ref/netstandard1.0/System.Reflection.xml",
+        "ref/netstandard1.0/de/System.Reflection.xml",
+        "ref/netstandard1.0/es/System.Reflection.xml",
+        "ref/netstandard1.0/fr/System.Reflection.xml",
+        "ref/netstandard1.0/it/System.Reflection.xml",
+        "ref/netstandard1.0/ja/System.Reflection.xml",
+        "ref/netstandard1.0/ko/System.Reflection.xml",
+        "ref/netstandard1.0/ru/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.3/System.Reflection.dll",
+        "ref/netstandard1.3/System.Reflection.xml",
+        "ref/netstandard1.3/de/System.Reflection.xml",
+        "ref/netstandard1.3/es/System.Reflection.xml",
+        "ref/netstandard1.3/fr/System.Reflection.xml",
+        "ref/netstandard1.3/it/System.Reflection.xml",
+        "ref/netstandard1.3/ja/System.Reflection.xml",
+        "ref/netstandard1.3/ko/System.Reflection.xml",
+        "ref/netstandard1.3/ru/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.5/System.Reflection.dll",
+        "ref/netstandard1.5/System.Reflection.xml",
+        "ref/netstandard1.5/de/System.Reflection.xml",
+        "ref/netstandard1.5/es/System.Reflection.xml",
+        "ref/netstandard1.5/fr/System.Reflection.xml",
+        "ref/netstandard1.5/it/System.Reflection.xml",
+        "ref/netstandard1.5/ja/System.Reflection.xml",
+        "ref/netstandard1.5/ko/System.Reflection.xml",
+        "ref/netstandard1.5/ru/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.4.3.0.nupkg.sha512",
+        "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "type": "package",
+      "path": "system.reflection.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Reflection.Primitives.dll",
+        "ref/netcore50/System.Reflection.Primitives.xml",
+        "ref/netcore50/de/System.Reflection.Primitives.xml",
+        "ref/netcore50/es/System.Reflection.Primitives.xml",
+        "ref/netcore50/fr/System.Reflection.Primitives.xml",
+        "ref/netcore50/it/System.Reflection.Primitives.xml",
+        "ref/netcore50/ja/System.Reflection.Primitives.xml",
+        "ref/netcore50/ko/System.Reflection.Primitives.xml",
+        "ref/netcore50/ru/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/System.Reflection.Primitives.dll",
+        "ref/netstandard1.0/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/de/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/es/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/it/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.primitives.4.3.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
+      ]
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "type": "package",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Resources.ResourceManager.dll",
+        "ref/netcore50/System.Resources.ResourceManager.xml",
+        "ref/netcore50/de/System.Resources.ResourceManager.xml",
+        "ref/netcore50/es/System.Resources.ResourceManager.xml",
+        "ref/netcore50/fr/System.Resources.ResourceManager.xml",
+        "ref/netcore50/it/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ja/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ko/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ru/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/System.Resources.ResourceManager.dll",
+        "ref/netstandard1.0/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/de/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/es/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/fr/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/it/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ja/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ko/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ru/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.resources.resourcemanager.4.3.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
+      ]
+    },
+    "System.Runtime/4.3.0": {
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "type": "package",
+      "path": "system.runtime/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "System.Text.Encoding/4.3.0": {
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "type": "package",
+      "path": "system.text.encoding/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Text.Encoding.dll",
+        "ref/netcore50/System.Text.Encoding.xml",
+        "ref/netcore50/de/System.Text.Encoding.xml",
+        "ref/netcore50/es/System.Text.Encoding.xml",
+        "ref/netcore50/fr/System.Text.Encoding.xml",
+        "ref/netcore50/it/System.Text.Encoding.xml",
+        "ref/netcore50/ja/System.Text.Encoding.xml",
+        "ref/netcore50/ko/System.Text.Encoding.xml",
+        "ref/netcore50/ru/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hans/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.0/System.Text.Encoding.dll",
+        "ref/netstandard1.0/System.Text.Encoding.xml",
+        "ref/netstandard1.0/de/System.Text.Encoding.xml",
+        "ref/netstandard1.0/es/System.Text.Encoding.xml",
+        "ref/netstandard1.0/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.0/it/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.3/System.Text.Encoding.dll",
+        "ref/netstandard1.3/System.Text.Encoding.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.4.3.0.nupkg.sha512",
+        "system.text.encoding.nuspec"
+      ]
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "type": "package",
+      "path": "system.threading.tasks/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.Tasks.dll",
+        "ref/netcore50/System.Threading.Tasks.xml",
+        "ref/netcore50/de/System.Threading.Tasks.xml",
+        "ref/netcore50/es/System.Threading.Tasks.xml",
+        "ref/netcore50/fr/System.Threading.Tasks.xml",
+        "ref/netcore50/it/System.Threading.Tasks.xml",
+        "ref/netcore50/ja/System.Threading.Tasks.xml",
+        "ref/netcore50/ko/System.Threading.Tasks.xml",
+        "ref/netcore50/ru/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hans/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/System.Threading.Tasks.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/System.Threading.Tasks.dll",
+        "ref/netstandard1.3/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hant/System.Threading.Tasks.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.4.3.0.nupkg.sha512",
+        "system.threading.tasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Leadtools.Formats.Raster.Common >= 22.0.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jacky Wang\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jacky Wang\\Documents\\GitHub\\SpaceAthon\\video-audio\\spaceathon video audio\\spaceathon video.csproj",
+      "projectName": "spaceathon video",
+      "projectPath": "C:\\Users\\Jacky Wang\\Documents\\GitHub\\SpaceAthon\\video-audio\\spaceathon video audio\\spaceathon video.csproj",
+      "packagesPath": "C:\\Users\\Jacky Wang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jacky Wang\\Documents\\GitHub\\SpaceAthon\\video-audio\\spaceathon video audio\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jacky Wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Leadtools.Formats.Raster.Common": {
+            "target": "Package",
+            "version": "[22.0.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
